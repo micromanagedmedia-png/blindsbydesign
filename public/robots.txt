@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blinds-shutters-shades-portland.cmsfly.com/sitemap.xml
