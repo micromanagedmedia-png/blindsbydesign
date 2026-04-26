@@ -1,5 +1,5 @@
 import SEOHeader from "../components/SEOHeader";
-import { Link } from "react-router";
+import Link from "../components/HoverLink";
 
 export default function ServiceAreas() {
   const areas = [

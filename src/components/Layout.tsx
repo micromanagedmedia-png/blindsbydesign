@@ -1,4 +1,5 @@
-import { Outlet, Link } from "react-router";
+import { Outlet } from "react-router";
+import Link from "./HoverLink";
 import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
 import SEOHeader from "./SEOHeader";

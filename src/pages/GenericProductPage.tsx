@@ -1,6 +1,6 @@
 import SEOHeader from "../components/SEOHeader";
 import { ArrowRight } from "lucide-react";
-import { Link } from "react-router";
+import Link from "../components/HoverLink";
 
 export default function GenericProductPage({ title, description, categories }: { title: string, description: string, categories: { name: string, desc: string }[] }) {
   return (

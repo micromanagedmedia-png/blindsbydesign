@@ -2,6 +2,123 @@
   command = "npm run build"
   publish = "dist"
 
+# Product Redirects
+[[redirects]]
+  from = "/window-treatment-products/shutters"
+  to = "/shutters"
+  status = 301
+
+[[redirects]]
+  from = "/window-treatment-products/blinds"
+  to = "/blinds"
+  status = 301
+
+[[redirects]]
+  from = "/window-treatment-products/shades"
+  to = "/shades"
+  status = 301
+
+[[redirects]]
+  from = "/window-treatment-products/draperies"
+  to = "/draperies-awnings"
+  status = 301
+
+[[redirects]]
+  from = "/window-treatment-products/awnings"
+  to = "/draperies-awnings"
+  status = 301
+
+[[redirects]]
+  from = "/window-treatment-products/wood-blinds"
+  to = "/blinds"
+  status = 301
+
+[[redirects]]
+  from = "/window-treatment-products/vertical-blinds"
+  to = "/blinds"
+  status = 301
+
+[[redirects]]
+  from = "/window-treatment-products/motorization"
+  to = "/shades"
+  status = 301
+
+[[redirects]]
+  from = "/window-treatment-products/child-safety-services"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/window-treatment-products"
+  to = "/"
+  status = 301
+
+# Location / Service Area Redirects
+[[redirects]]
+  from = "/near-me/*"
+  to = "/service-areas"
+  status = 301
+
+[[redirects]]
+  from = "/near-me"
+  to = "/service-areas"
+  status = 301
+
+# Blog & Content Redirects
+[[redirects]]
+  from = "/posts"
+  to = "/blog"
+  status = 301
+
+# Contact & Info Redirects
+[[redirects]]
+  from = "/form"
+  to = "/contact"
+  status = 301
+
+[[redirects]]
+  from = "/team"
+  to = "/contact"
+  status = 301
+
+# Marketing & Utility Catch-alls
+[[redirects]]
+  from = "/ppc/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/ppc"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/all-leads/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/all-leads"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/Gallery"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/reviews"
+  to = "/"
+  status = 301
+
+# Previously Requested Catch-all
+[[redirects]]
+  from = "/blinds-shutters-shades-portland-pages/*"
+  to = "/"
+  status = 301
+
+# React Router Fallback (Must be last)
 [[redirects]]
   from = "/*"
   to = "/index.html"

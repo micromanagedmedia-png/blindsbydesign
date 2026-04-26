@@ -1,6 +1,6 @@
 import SEOHeader from "../components/SEOHeader";
 import { Star, Shield, ArrowRight } from "lucide-react";
-import { Link } from "react-router";
+import Link from "../components/HoverLink";
 
 export default function Home() {
   return (
