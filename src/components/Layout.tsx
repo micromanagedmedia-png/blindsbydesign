@@ -24,6 +24,7 @@ export default function Layout() {
               <Link to="/shutters" className="hover:text-brand-yellow transition-colors">Shutters</Link>
               <Link to="/blinds" className="hover:text-brand-yellow transition-colors">Blinds</Link>
               <Link to="/shades" className="hover:text-brand-yellow transition-colors">Shades</Link>
+              <Link to="/brands" className="hover:text-brand-yellow transition-colors">Brands</Link>
               <Link to="/service-areas" className="hover:text-brand-yellow transition-colors">Service Area</Link>
               <Link to="/blog" className="hover:text-brand-yellow transition-colors">Blog</Link>
             </nav>
@@ -61,6 +62,7 @@ export default function Layout() {
             <Link onClick={() => setIsMenuOpen(false)} to="/shutters" className="block px-4 py-2 hover:bg-slate-50 rounded">Shutters</Link>
             <Link onClick={() => setIsMenuOpen(false)} to="/blinds" className="block px-4 py-2 hover:bg-slate-50 rounded">Blinds</Link>
             <Link onClick={() => setIsMenuOpen(false)} to="/shades" className="block px-4 py-2 hover:bg-slate-50 rounded">Shades</Link>
+            <Link onClick={() => setIsMenuOpen(false)} to="/brands" className="block px-4 py-2 hover:bg-slate-50 rounded">Brands</Link>
             <Link onClick={() => setIsMenuOpen(false)} to="/service-areas" className="block px-4 py-2 hover:bg-slate-50 rounded">Service Area</Link>
             <Link onClick={() => setIsMenuOpen(false)} to="/blog" className="block px-4 py-2 hover:bg-slate-50 rounded">Blog</Link>
             <div className="border-t border-slate-200 pt-4 px-4 pb-2 flex flex-col space-y-4">
@@ -103,6 +105,7 @@ export default function Layout() {
               <li><Link to="/blinds" className="hover:text-brand-teal transition-colors">Wood & Faux Wood Blinds</Link></li>
               <li><Link to="/shades" className="hover:text-brand-teal transition-colors">Cellular & Roller Shades</Link></li>
               <li><Link to="/draperies-awnings" className="hover:text-brand-teal transition-colors">Custom Draperies & Awnings</Link></li>
+              <li><Link to="/brands" className="hover:text-brand-teal transition-colors">Our Trusted Brands</Link></li>
             </ul>
           </div>
           <div>

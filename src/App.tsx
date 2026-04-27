@@ -14,6 +14,7 @@ import DraperiesAwnings from "./pages/DraperiesAwnings";
 import ServiceAreas from "./pages/ServiceAreas";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Brands from "./pages/Brands";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
             <Route path="service-areas" element={<ServiceAreas />} />
             <Route path="contact" element={<Contact />} />
             <Route path="blog" element={<Blog />} />
+            <Route path="brands" element={<Brands />} />
           </Route>
         </Routes>
       </BrowserRouter>
