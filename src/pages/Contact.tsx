@@ -15,7 +15,7 @@ export default function Contact() {
           
           <div>
             <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6 tracking-tight">
-              Let's Bring <span className="text-sea-blue uppercase tracking-tight">Your Vision</span> to Light.
+              Let's Bring <span className="text-brand-teal uppercase tracking-tight">Your Vision</span> to Light.
             </h1>
             <p className="text-xl text-slate-500 mb-10 font-medium">
               Schedule your free, no-obligation, in-home consultation. We'll bring the showroom to you.
@@ -29,7 +29,7 @@ export default function Contact() {
                 "Zero pressure to buy."
               ].map((item, i) => (
                 <div key={i} className="flex items-center space-x-4">
-                  <CheckCircle2 className="w-6 h-6 text-sea-blue flex-shrink-0" />
+                  <CheckCircle2 className="w-6 h-6 text-brand-teal flex-shrink-0" />
                   <span className="text-slate-700 font-bold">{item}</span>
                 </div>
               ))}
@@ -38,7 +38,7 @@ export default function Contact() {
             <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
               <h3 className="text-2xl font-bold text-slate-900 mb-4 uppercase tracking-tight">Direct Contact</h3>
               <p className="text-slate-500 mb-2 font-medium">Call us directly to schedule.</p>
-              <a href="tel:207-501-2800" className="text-3xl font-bold text-sea-blue hover:text-ocean transition-colors block mb-6">
+              <a href="tel:207-501-2800" className="text-3xl font-bold text-brand-teal hover:text-brand-teal-dark transition-colors block mb-6">
                 (207) 501-2800
               </a>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-600 font-medium">
@@ -56,35 +56,35 @@ export default function Contact() {
             </div>
           </div>
           
-          <div className="bg-[#1a365d] p-10 rounded-xl shadow-xl flex flex-col text-white relative overflow-hidden">
+          <div className="bg-brand-teal p-10 rounded-xl shadow-xl flex flex-col text-white relative overflow-hidden">
             <h3 className="text-2xl font-bold mb-8 uppercase tracking-tight">Request Consultation</h3>
             
             {/* Note: This is an un-wired form visually for the static site request. Normally we'd wire it to an endpoint. */}
             <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label htmlFor="firstName" className="block text-xs font-bold tracking-widest uppercase text-blue-100">First Name</label>
-                  <input type="text" id="firstName" className="w-full border-b border-blue-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white placeholder-blue-300" placeholder="Jane" required />
+                  <label htmlFor="firstName" className="block text-xs font-bold tracking-widest uppercase text-teal-100">First Name</label>
+                  <input type="text" id="firstName" className="w-full border-b border-teal-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white placeholder-teal-300" placeholder="Jane" required />
                 </div>
                 <div className="space-y-2">
-                  <label htmlFor="lastName" className="block text-xs font-bold tracking-widest uppercase text-blue-100">Last Name</label>
-                  <input type="text" id="lastName" className="w-full border-b border-blue-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white placeholder-blue-300" placeholder="Doe" required />
+                  <label htmlFor="lastName" className="block text-xs font-bold tracking-widest uppercase text-teal-100">Last Name</label>
+                  <input type="text" id="lastName" className="w-full border-b border-teal-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white placeholder-teal-300" placeholder="Doe" required />
                 </div>
               </div>
               
               <div className="space-y-2">
-                <label htmlFor="email" className="block text-xs font-bold tracking-widest uppercase text-blue-100">Email Address</label>
-                <input type="email" id="email" className="w-full border-b border-blue-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white placeholder-blue-300" placeholder="jane@example.com" required />
+                <label htmlFor="email" className="block text-xs font-bold tracking-widest uppercase text-teal-100">Email Address</label>
+                <input type="email" id="email" className="w-full border-b border-teal-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white placeholder-teal-300" placeholder="jane@example.com" required />
               </div>
 
               <div className="space-y-2">
-                <label htmlFor="phone" className="block text-xs font-bold tracking-widest uppercase text-blue-100">Phone Number</label>
-                <input type="tel" id="phone" className="w-full border-b border-blue-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white placeholder-blue-300" placeholder="(207) 555-0123" required />
+                <label htmlFor="phone" className="block text-xs font-bold tracking-widest uppercase text-teal-100">Phone Number</label>
+                <input type="tel" id="phone" className="w-full border-b border-teal-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white placeholder-teal-300" placeholder="(207) 555-0123" required />
               </div>
               
               <div className="space-y-2">
-                <label htmlFor="service" className="block text-xs font-bold tracking-widest uppercase text-blue-100">Interested In</label>
-                <select id="service" className="w-full border-b border-blue-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white [&>option]:text-slate-900" required>
+                <label htmlFor="service" className="block text-xs font-bold tracking-widest uppercase text-teal-100">Interested In</label>
+                <select id="service" className="w-full border-b border-teal-400 focus:border-white bg-transparent py-2 outline-none transition-colors text-white [&>option]:text-slate-900" required>
                   <option value="">Select an option...</option>
                   <option value="shutters">Plantation Shutters</option>
                   <option value="blinds">Wood/Faux Wood Blinds</option>
@@ -94,7 +94,7 @@ export default function Contact() {
                 </select>
               </div>
 
-              <button type="submit" className="w-full bg-white text-[#1a365d] hover:bg-slate-100 px-8 py-4 rounded text-xs font-bold transition-all shadow-sm mt-8 uppercase tracking-widest">
+              <button type="submit" className="w-full bg-brand-yellow text-slate-900 hover:bg-yellow-400 px-8 py-4 rounded text-xs font-bold transition-all shadow-sm mt-8 uppercase tracking-widest">
                 Submit Request
               </button>
             </form>

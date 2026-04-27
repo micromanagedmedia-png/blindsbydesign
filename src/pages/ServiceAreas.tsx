@@ -29,8 +29,8 @@ export default function ServiceAreas() {
           <div className="bg-white rounded-xl p-10 max-w-3xl mx-auto shadow-sm border border-slate-200">
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm font-bold text-slate-700 uppercase tracking-wide">
               {areas.map((area, i) => (
-                <li key={i} className="flex items-center space-x-3 p-4 bg-slate-50 rounded border border-slate-200 hover:border-sea-blue transition-colors">
-                  <div className="w-2 h-2 rounded-full bg-sea-blue" />
+                <li key={i} className="flex items-center space-x-3 p-4 bg-slate-50 rounded border border-slate-200 hover:border-brand-teal transition-colors">
+                  <div className="w-2 h-2 rounded-full bg-brand-teal" />
                   <span>{area}</span>
                 </li>
               ))}
@@ -38,7 +38,7 @@ export default function ServiceAreas() {
 
             <div className="mt-12 text-center border-t border-slate-200 pt-10">
               <p className="text-slate-500 font-medium mb-6">Don't see your town? Give us a call, we likely service your area as well.</p>
-              <Link to="/contact" className="inline-flex items-center justify-center bg-sea-blue text-white hover:bg-slate-800 px-8 py-4 rounded font-bold transition-all shadow-sm uppercase tracking-widest text-xs">
+              <Link to="/contact" className="inline-flex items-center justify-center bg-brand-teal text-white hover:bg-brand-teal-dark px-8 py-4 rounded font-bold transition-all shadow-sm uppercase tracking-widest text-xs">
                 Contact Us
               </Link>
             </div>

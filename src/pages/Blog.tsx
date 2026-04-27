@@ -41,8 +41,8 @@ export default function Blog() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {posts.map((post, i) => (
-              <article key={i} className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200 flex flex-col hover:border-sea-blue transition-all group">
-                <div className="aspect-video bg-slate-100 flex items-center justify-center p-6 text-center text-slate-400 font-bold uppercase tracking-widest text-xs">
+              <article key={i} className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200 flex flex-col hover:border-brand-teal transition-all group">
+                <div className="aspect-video bg-teal-50 flex items-center justify-center p-6 text-center text-brand-teal font-bold uppercase tracking-widest text-xs">
                   [ Article Image ]
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
@@ -50,11 +50,11 @@ export default function Blog() {
                     <span>{post.category}</span>
                     <span>{post.date}</span>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-4 leading-tight group-hover:text-sea-blue transition-colors">
+                  <h3 className="text-xl font-bold text-slate-900 mb-4 leading-tight group-hover:text-brand-teal transition-colors">
                     <Link to="#">{post.title}</Link>
                   </h3>
                   <p className="text-slate-500 flex-grow mb-6 text-sm leading-relaxed">{post.excerpt}</p>
-                  <Link to="#" className="text-sea-blue font-bold uppercase tracking-widest text-xs hover:text-slate-900 transition-colors mt-auto">
+                  <Link to="#" className="text-brand-teal font-bold uppercase tracking-widest text-xs group-hover:text-brand-teal-dark transition-colors mt-auto">
                     Read Article &rarr;
                   </Link>
                 </div>
